@@ -5,35 +5,39 @@
 .history-table {
 	width: 100%;
 	border-collapse: collapse;
-	background: var(--panel);
-	border-radius: 8px;
+	background: #fff;
+	border-radius: 4px;
 	overflow: hidden;
+	border: 1px solid rgba(20,36,33,0.1);
 }
 
 .history-table th,
 .history-table td {
 	text-align: left;
-	padding: 12px 14px;
-	border-bottom: 1px solid rgba(0,0,0,0.04);
+	padding: 18px 20px;
+	border-bottom: 1px solid rgba(20,36,33,0.08);
 }
 
 .history-table thead th {
-	background: linear-gradient(90deg, rgba(23,107,135,0.06), rgba(23,107,135,0.02));
+	background: var(--deep);
 	font-weight: 600;
-	color: var(--muted);
+	color: #ffe3e5;
+	font-size: 0.78rem;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
 }
 
 .history-table tbody tr:last-child td { border-bottom: none; }
 
-.energy-text { color: #116530; font-weight: 600; }
-.token-text { color: var(--accent); font-weight: 700; }
+.energy-text { color: var(--deep); font-weight: 800; }
+.token-text { color: #bd573d; font-weight: 700; }
 
 .status-badge {
 	display: inline-block;
 	padding: 6px 10px;
-	border-radius: 999px;
-	background: rgba(17, 115, 80, 0.08);
-	color: #0b6b3a;
+	border-radius: 2px;
+	background: var(--soft-red);
+	color: var(--deep);
 	font-weight: 600;
 }
 

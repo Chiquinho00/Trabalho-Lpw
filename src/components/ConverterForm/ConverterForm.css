@@ -1,18 +1,19 @@
 .converter-card {
-  background: var(--panel);
-  border-radius: 10px;
-  padding: 14px 16px;
+  background: #fff;
+  border-radius: 4px;
+  padding: 28px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.04);
+  box-shadow: 8px 8px 0 rgba(143, 16, 39, 0.08);
 }
 
 .converter-card h3 {
   margin: 0;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--deep);
+  font-family: Georgia, serif;
 }
 
 .converter-card form {
@@ -27,16 +28,18 @@
   color: var(--text);
 }
 
-.converter-card input[type="number"] {
+.converter-card input[type="text"] {
   padding: 10px 12px;
-  border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  font-size: 0.95rem;
+  border-radius: 2px;
+  border: 1px solid var(--line);
+  background: #fff8f7;
+  font-size: 1rem;
 }
 
-.converter-card input[type="number"]:focus {
+.converter-card input[type="text"]:focus {
   outline: none;
   border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(238, 106, 74, 0.14);
 }
 
 .converter-card small {
@@ -50,15 +53,15 @@
   color: white;
   padding: 10px 12px;
   border: none;
-  border-radius: 8px;
+  border-radius: 2px;
   cursor: pointer;
   font-size: 0.95rem;
-  font-weight: 500;
+  font-weight: 800;
   transition: opacity 0.2s ease;
 }
 
 .converter-card button:hover {
-  opacity: 0.95;
+  background: var(--deep);
 }
 
 .converter-card p {

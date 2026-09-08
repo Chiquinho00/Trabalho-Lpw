@@ -1,29 +1,31 @@
 
 :root {
-  --bg: #fffaf6;
+  --bg: #fff8f7;
   --panel: #ffffff;
-  --text: #2b2b2b;
-  --muted: #6b6b6b;
-  --accent: #176b87;
-  --deep: #174b59;
-  --glass: rgba(255,255,255,0.6);
+  --text: #241b1b;
+  --muted: #786d6d;
+  --accent: #d9283f;
+  --deep: #8f1027;
+  --ink: #350c16;
+  --soft-red: #ffe3e5;
+  --line: #ead8d9;
 }
 
 * { box-sizing: border-box; }
 html, body, #root { height: 100%; }
 body {
   margin: 0;
-  font-family: Georgia, 'Times New Roman', serif;
-  background: linear-gradient(180deg, #f7fbfc 0%, #eef6f5 100%);
+  font-family: 'Avenir Next', 'Century Gothic', sans-serif;
+  background: var(--bg);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 32px;
 }
 
 a { color: var(--accent); text-decoration: none; }
@@ -32,8 +34,25 @@ a:hover { text-decoration: underline; }
 .muted { color: var(--muted); }
 .card {
   background: var(--panel);
-  border-radius: 10px;
-  padding: 16px;
-  box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 26px;
+  box-shadow: 8px 8px 0 rgba(143, 16, 39, 0.08);
+}
+
+h1, h2, h3, p { letter-spacing: 0; }
+
+.home-intro,
+.institutional-hero,
+.contact-copy,
+.converter-grid,
+.summary-container,
+.history-table {
+  animation: appear 520ms ease both;
+}
+
+@keyframes appear {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 

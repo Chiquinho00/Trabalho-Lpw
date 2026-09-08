@@ -1,18 +1,19 @@
 .balance-card {
-  background: var(--panel);
-  border-radius: 10px;
-  padding: 14px 16px;
+  background: var(--deep);
+  border: 0;
+  border-radius: 4px;
+  padding: 28px;
   display: flex;
   flex-direction: column;
   gap: 6px;
-  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.04);
+  box-shadow: 10px 10px 0 rgba(217, 40, 63, 0.22);
 }
 
 .balance-card h3 {
   margin: 0;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #fff;
 }
 
 .balance-card p {
@@ -20,12 +21,14 @@
 }
 
 .balance-card .muted {
-  color: var(--muted);
+  color: #f2b7be;
   font-size: 0.85rem;
 }
 
 .balance-card .value {
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--text);
+  margin: 0 0 10px;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 0.9;
+  color: #fff;
 }
