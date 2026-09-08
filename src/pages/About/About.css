@@ -1,0 +1,54 @@
+.institutional-hero {
+  max-width: 760px;
+  padding: 48px 0 34px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.institutional-hero h1 {
+  max-width: 680px;
+  margin: 0;
+  color: var(--deep);
+  font-size: clamp(2.2rem, 6vw, 4.8rem);
+  line-height: 0.98;
+}
+
+.institutional-hero p:last-child {
+  max-width: 610px;
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding-bottom: 48px;
+}
+
+.about-card {
+  min-height: 220px;
+  border-top: 3px solid var(--accent);
+}
+
+.about-number {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.about-card h2 { margin: 30px 0 10px; color: var(--deep); font-size: 1.25rem; }
+.about-card p { margin: 0; color: var(--muted); line-height: 1.6; }
+
+@media (max-width: 720px) {
+  .institutional-hero { padding-top: 32px; }
+  .about-grid { grid-template-columns: 1fr; }
+}

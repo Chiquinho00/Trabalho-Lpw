@@ -1,0 +1,38 @@
+.summary-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 16px;
+	margin: 18px 0 24px 0;
+}
+
+.summary-card {
+	background: var(--panel);
+	border-radius: 10px;
+	padding: 14px 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	box-shadow: 0 6px 18px rgba(16,24,40,0.04);
+}
+
+.summary-card h3 {
+	margin: 0;
+	font-size: 0.95rem;
+	color: var(--muted);
+}
+
+.summary-value {
+	margin: 0;
+	font-size: 1.35rem;
+	font-weight: 700;
+	color: var(--text);
+}
+
+.summary-card.highlight {
+	border-left: 4px solid var(--accent);
+}
+
+@media (max-width: 720px) {
+	.summary-container { grid-template-columns: 1fr; }
+}
+

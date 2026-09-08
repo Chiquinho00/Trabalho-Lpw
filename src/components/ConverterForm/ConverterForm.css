@@ -1,0 +1,67 @@
+.converter-card {
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.04);
+}
+
+.converter-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.converter-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.converter-card label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.converter-card input[type="number"] {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 0.95rem;
+}
+
+.converter-card input[type="number"]:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.converter-card small {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.converter-card button {
+  margin-top: 4px;
+  background: var(--accent);
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.converter-card button:hover {
+  opacity: 0.95;
+}
+
+.converter-card p {
+  margin: 4px 0 0 0;
+  font-size: 0.9rem;
+}

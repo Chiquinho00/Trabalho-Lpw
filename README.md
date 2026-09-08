@@ -1,4 +1,8 @@
-# React + Vite
+# RoomHub
+
+Plataforma para conectar estudantes e anunciantes de moradias próximas a instituições de ensino.
+
+O RoomHub reúne busca, comunicação, avaliação e gerenciamento de anúncios em um ambiente digital prático, seguro e organizado.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

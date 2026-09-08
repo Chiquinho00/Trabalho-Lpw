@@ -1,0 +1,31 @@
+.balance-card {
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.04);
+}
+
+.balance-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.balance-card p {
+  margin: 0;
+}
+
+.balance-card .muted {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.balance-card .value {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--text);
+}
