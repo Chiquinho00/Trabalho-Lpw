@@ -1,11 +1,11 @@
 import React from 'react'
 import { Navbar } from '../../components/Navbar'
-import { BalanceCard } from '../../components/BalanceCard'
-import { ConverterForm } from '../../components/ConverterForm'
-import './EnergyConverter.css'
+import { Anuncios } from '../../components/anuncios'
+import { Busca } from '../../components/busca'
+import './home.css'
 
 // funcionamento simulado!!
-export class EnergyConverter extends React.Component {
+export class Home extends React.Component {
   handleConvert = (generated) => {
     // placeholder: aqui você pode atualizar estado global ou exibir notificações
     console.log('Busca realizada:', generated)
@@ -31,9 +31,9 @@ export class EnergyConverter extends React.Component {
           <h2>Comece sua busca</h2>
 
           <div className="converter-grid">
-            <BalanceCard moradias={moradias} anuncios={anuncios} />
+            <Anuncios moradias={moradias} anuncios={anuncios} />
 
-            <ConverterForm onSuccess={this.handleConvert} />
+            <Busca onSuccess={this.handleConvert} />
           </div>
         </main>
       </div>
@@ -41,4 +41,4 @@ export class EnergyConverter extends React.Component {
   }
 }
 
-export default EnergyConverter
+export default Home

@@ -1,4 +1,4 @@
-.balance-card {
+.anuncios-card {
   background: var(--deep);
   border: 0;
   border-radius: 4px;
@@ -9,23 +9,23 @@
   box-shadow: 10px 10px 0 rgba(217, 40, 63, 0.22);
 }
 
-.balance-card h3 {
+.anuncios-card h3 {
   margin: 0;
   font-size: 1.1rem;
   font-weight: 800;
   color: #fff;
 }
 
-.balance-card p {
+.anuncios-card p {
   margin: 0;
 }
 
-.balance-card .muted {
+.anuncios-card .muted {
   color: #f2b7be;
   font-size: 0.85rem;
 }
 
-.balance-card .value {
+.anuncios-card .value {
   margin: 0 0 10px;
   font-weight: 800;
   font-size: 3rem;

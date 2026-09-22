@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './ConverterForm.css'
+import './busca.css'
 
-export function ConverterForm({ onSuccess }) {
+export function Busca({ onSuccess }) {
   const [amount, setAmount] = useState('')
   const [message, setMessage] = useState(null)
 
@@ -16,7 +16,7 @@ export function ConverterForm({ onSuccess }) {
   }
 
   return (
-    <section className="converter-card card">
+    <section className="busca-card card">
       <h3>Encontre sua moradia</h3>
       <form onSubmit={handleSubmit}>
         <label htmlFor="search-location">Onde você vai estudar?</label>
@@ -35,4 +35,4 @@ export function ConverterForm({ onSuccess }) {
   )
 }
 
-export default ConverterForm
+export default Busca

@@ -1,8 +1,8 @@
-import './BalanceCard.css'
+import './anuncios.css'
 
-export function BalanceCard({ moradias, anuncios }) {
+export function Anuncios({ moradias, anuncios }) {
   return (
-    <section className="balance-card card">
+    <section className="anuncios-card card">
       <h3>Seu painel</h3>
       <p className="muted">Moradias compatíveis</p>
       <p className="value">{moradias}</p>
@@ -12,4 +12,4 @@ export function BalanceCard({ moradias, anuncios }) {
   )
 }
 
-export default BalanceCard
+export default Anuncios
