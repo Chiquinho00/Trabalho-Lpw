@@ -1,7 +1,7 @@
 import { Navbar } from '../../components/Navbar';
 import { Summary } from '../../components/Summary';
 import { HistoryTable } from '../../components/HistoryTable';
-import './History.css';
+import './meusanuncios.css';
 
 const dadosDeTroca = [
   { id: 1, data: '16/06/2026', moradia: 'Quarto mobiliado', localizacao: 'Centro, Campinas', status: 'Ativo' },

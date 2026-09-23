@@ -16,8 +16,8 @@ export function HistoryTable({ data }) {
           {data.map((item) => (
             <tr key={item.id}>
               <td>{item.data}</td>
-              <td className="energy-text">{item.moradia}</td>
-              <td className="token-text">{item.localizacao}</td>
+              <td className="moradia-text">{item.moradia}</td>
+              <td className="localizacao-text">{item.localizacao}</td>
               <td>
                 <span className="status-badge">{item.status}</span>
               </td>

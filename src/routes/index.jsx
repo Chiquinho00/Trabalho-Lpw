@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
-import { History } from '../pages/History'
+import { History } from '../pages/meusanuncios'
 import { Home } from '../pages/home'
-import { About } from '../pages/About'
+import { About } from '../pages/sobre'
 import { Contact } from '../pages/Contact'
 
 export function AppRoutes() {
